@@ -60,6 +60,10 @@ nav ul li{
     width: 20rem;
     margin: 2rem auto;
 }
+nav ul li:hover{
+    transform: scale(1.2);
+    transition: all .3s ease-in-out;
+}
 nav i{
     color: var(--red);
 }
@@ -77,6 +81,10 @@ section ul li a{
     min-width: 300px;
     font-size: 2.5rem;
     padding: 1rem 0;
+}
+section ul li a:hover{
+    border: solid 3px rgb(214, 28, 28);
+    box-shadow: 1px 1px 80px rgb(250, 0, 0);
 }
 footer{
     text-align: center;
